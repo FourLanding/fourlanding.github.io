@@ -31,4 +31,12 @@
     text-align: left !important;
     padding-left: 20px!important;
   }
+  .banner.template-kp-saude .subtitle{
+    text-align:left!important;
+    font-size: 26px!important;
+  }
+  .banner.template-kp-saude .title{
+    text-align:left!important;
+    font-size: 44px!important;
+  }
 }
