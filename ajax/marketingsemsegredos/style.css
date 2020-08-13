@@ -2,3 +2,10 @@
 * Style.css v1.0.0
 * https://marketingsemsegredos.com.br/
 */
+.template-kp-saude{
+  background: url(//static-public.klickpages.com.br/uploads/media/file/2454580/bg-primary-mkt-ss.jpg) left center / cover no-repeat scroll;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    max-height: 768px;
+}
