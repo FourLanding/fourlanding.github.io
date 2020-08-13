@@ -14,4 +14,8 @@
  .template-kp-saude{
    background-position: -50px 0!important;
   }
+  .banner.template-kp-saude .text-wrapper{
+    text-align: left !important;
+    padding-left: 20px!important;
+  }
 }
