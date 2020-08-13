@@ -20,7 +20,7 @@
 }
 
 .author-about-4.template-leandro .thumb img{
-  height: max-content!important;
+  height: auto!important;
 }
 
 @media (max-width: 987px){
