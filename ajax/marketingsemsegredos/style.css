@@ -3,7 +3,8 @@
 * https://marketingsemsegredos.com.br/
 */
 .template-kp-saude{
-  background: url(https://static-public.klickpages.com.br/uploads/media/file/2455086/bg-primary-mkt-ss002.jpg) left center / cover no-repeat scroll;
+  /*https://static-public.klickpages.com.br/uploads/media/file/2455086/bg-primary-mkt-ss002.jpg*/
+  background: url(https://static-public.klickpages.com.br/uploads/media/file/2456018/bg-primary-mkt-ss-png2.png) left center / cover no-repeat scroll;
     height: 100vh;
     display: flex;
     align-items: center;
