@@ -19,6 +19,10 @@
   background-color: rgba(10, 29, 86, 0.9)!important;
 }
 
+.author-about-4.template-leandro .thumb img{
+  height: max-content!important;
+}
+
 @media (max-width: 987px){
  .template-kp-saude{
    background-position: -50px 0!important;
