@@ -10,7 +10,9 @@
     align-items: center;
     max-height: 768px;
 }
-
+.quality-3.template-bluesol .quality-item{
+  width:100%!important;
+}
 .table-images.template-leandro .list .item .layer{
   padding: 0 10%!important;
       opacity: 1!important;
