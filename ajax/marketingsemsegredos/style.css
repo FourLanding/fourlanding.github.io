@@ -13,7 +13,9 @@
 .quality-3.template-bluesol .quality-item{
   width:100%!important;
 }
-
+.header-container.template-olivia .container-mobile{
+  width:100%!important;
+}
 .header-container.template-olivia > .container{
   padding: 6px 20px 6px!important;
 }
