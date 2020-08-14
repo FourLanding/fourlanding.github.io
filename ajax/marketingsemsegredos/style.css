@@ -11,7 +11,8 @@
     max-height: 768px;
 }
 .template-bluesol:after{
-  
+  content: '';
+  position: absolute;
 }
 .quality-3.template-bluesol .quality-item{
   width:100%!important;
