@@ -135,13 +135,15 @@ z-index: 1;
   }
 
 .events-photo.template-cris .events-photo-agenda-item{
-    border-right: 2px #ebcc1f solid!important;
+    border-right: 2px #0b1e560a solid !important;
   }
 
 
 @media (max-width: 767px){
   
-  
+  .events-photo.template-cris .events-photo-agenda-item{
+    border-right: 2px #ebcc1f solid!important;
+  }
   
   .itens.template-bonus .box .box__description:after{
     content: '';
