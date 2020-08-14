@@ -21,9 +21,7 @@ z-index: 500;
 top: 0;
 left: 6.1%;
 }
-.quality-3.template-bluesol .quality-item{
-  width:100%!important;
-}
+
 .header-container.template-olivia .container-mobile{
   width:100%!important;
 }
@@ -79,4 +77,11 @@ left: 10px;
     text-align:left!important;
     font-size: 40px!important;
   }
+  
+  
+  .quality-3.template-bluesol .quality-item{
+  width:100%!important;
+}
+  
+  
 }
