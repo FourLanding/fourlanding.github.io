@@ -44,7 +44,29 @@ left: 6.1%;
 .author-about-4.template-leandro .thumb img{
   height: auto!important;
 }
+
+.events-photo.template-cris .events-photo-agenda-item-content .button{
+  padding:0px!important;
+}
+
+
+
 @media (max-width: 767px){
+  
+  
+  .itens.template-bonus .box .box__description{
+    padding-left:10px!important;
+    text-align: left !important;
+  }
+  .itens.template-bonus .box .box__description:after{
+    content:'';
+    position:absolute;
+  }
+  
+  
+  
+  
+  
   .header-container.template-olivia .header-navigation{
     padding-top: 10px!important;
     margin-bottom: 10px!important;
@@ -64,6 +86,12 @@ left: 6.1%;
   .template-bluesol:after{
 left: 10px;
 }
+  
+  .events-photo.template-cris .events-photo-agenda-item{
+    border-right: 2px #ebcc1f solid!important;
+  }
+  
+  
   .banner.template-kp-saude .text-wrapper{
     text-align: left !important;
     padding-left: 10px!important;
