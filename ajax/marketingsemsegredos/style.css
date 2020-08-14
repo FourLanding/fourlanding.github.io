@@ -10,6 +10,9 @@
     align-items: center;
     max-height: 768px;
 }
+.template-bluesol{
+  background:url("//static-public.klickpages.com.br/uploads/media/file/2460502/line-h-mkt-ss1.png") left center / cover no-repeat scroll;
+}
 .quality-3.template-bluesol .quality-item{
   width:100%!important;
 }
