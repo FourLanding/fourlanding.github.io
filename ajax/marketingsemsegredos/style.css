@@ -55,12 +55,30 @@ left: 6.1%;
   
   
   .itens.template-bonus .box .box__description{
-    padding-left:10px!important;
+    padding-left:20px!important;
     text-align: left !important;
   }
   .itens.template-bonus .box .box__description:after{
-    content:'';
-    position:absolute;
+    content: '';
+position: absolute;
+width: 2px;
+height: 100%;
+top: 0px;
+left: 0;
+z-index: 1;
+
+  }
+  
+  .itens.template-bonus .box .box__description.four-red-color:after{
+    background-color: rgb(242, 19, 43);
+  }
+  
+  .itens.template-bonus .box .box__description.four-black-color:after{
+    background-color: #000;
+  }
+  
+  .itens.template-bonus .box .box__description.four-out-color:after{
+    background-color: rgb(163, 163, 163);
   }
   
   
