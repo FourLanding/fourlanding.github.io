@@ -13,6 +13,10 @@
 .quality-3.template-bluesol .quality-item{
   width:100%!important;
 }
+
+.header-container.template-olivia > .container{
+  padding: 6px 20px 6px!important;
+}
 .table-images.template-leandro .list .item .layer{
   padding: 0 10%!important;
       opacity: 1!important;
@@ -29,7 +33,21 @@
 .author-about-4.template-leandro .thumb img{
   height: auto!important;
 }
-
+@media (max-width: 767px){
+  .header-container.template-olivia .header-navigation{
+    padding-top: 10px!important;
+    margin-bottom: 10px!important;
+    display:block!important;
+  }
+.header-container.template-olivia .header-navigation .header-menu-item, .header-container.template-olivia .header-navigation .header-social-item{
+  display: inline!important;
+  border-top: 0px solid #e5e5e5!important;
+}
+.header-container.template-olivia .header-navigation .header-social-item{
+  padding: 10px 15px!important;
+}
+  
+}
 @media (max-width: 987px){
  .template-kp-saude{
    background-position: -50px 0!important;
