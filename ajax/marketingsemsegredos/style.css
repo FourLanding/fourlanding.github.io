@@ -85,6 +85,44 @@ border-radius: 100px;
   }
 }
 
+
+.four-arrow:after{
+  content:'';
+  position: absolute;
+}
+
+
+
+
+.itens.template-bonus .box .box__description:after{
+    content: '';
+position: absolute;
+width: 2px;
+height: 100%;
+top: 0px;
+
+z-index: 1;
+
+  }
+  
+  .itens.template-bonus .box .box__description.four-red-color:after{
+    background-color: rgb(242, 19, 43);
+    left: 0;
+  }
+  
+  .itens.template-bonus .box .box__description.four-black-color:after{
+    background-color: #000;
+    right:0;
+  }
+  
+  .itens.template-bonus .box .box__description.four-out-color:after{
+    background-color: rgb(163, 163, 163);
+    left: 0;
+  }
+
+
+
+
 @media (max-width: 767px){
   
   
