@@ -22,6 +22,10 @@
   background-color: rgba(10, 29, 86, 0.9)!important;
 }
 
+.header-container-four{
+  padding-right: 5px!important;
+}
+
 .author-about-4.template-leandro .thumb img{
   height: auto!important;
 }
@@ -32,7 +36,7 @@
   }
   .banner.template-kp-saude .text-wrapper{
     text-align: left !important;
-    padding-left: 15px!important;
+    padding-left: 10px!important;
     font-size: 90%!important;
   }
   .banner.template-kp-saude .subtitle{
