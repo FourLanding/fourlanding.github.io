@@ -87,12 +87,26 @@ border-radius: 100px;
 
 
 .four-arrow:after{
-  content:'';
-  position: absolute;
+  content: '';
+position: absolute;
+left: 50%;
+top: -25px;
+width: 0;
+height: 0;
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-top: 15px solid #f6cd00;
+clear: both;
+transform: translateX(-50%);
+border-radius: 0px;
 }
 
 
-
+.itens.template-bonus .box .box__description{
+    padding-left:20px!important;
+    text-align: left !important;
+    position: relative;
+  }
 
 .itens.template-bonus .box .box__description:after{
     content: '';
@@ -120,17 +134,15 @@ z-index: 1;
     left: 0;
   }
 
-
+.events-photo.template-cris .events-photo-agenda-item{
+    border-right: 2px #ebcc1f solid!important;
+  }
 
 
 @media (max-width: 767px){
   
   
-  .itens.template-bonus .box .box__description{
-    padding-left:20px!important;
-    text-align: left !important;
-    position: relative;
-  }
+  
   .itens.template-bonus .box .box__description:after{
     content: '';
 position: absolute;
@@ -178,9 +190,7 @@ z-index: 1;
 left: 10px;
 }
   
-  .events-photo.template-cris .events-photo-agenda-item{
-    border-right: 2px #ebcc1f solid!important;
-  }
+  
   
   
   .banner.template-kp-saude .text-wrapper{
