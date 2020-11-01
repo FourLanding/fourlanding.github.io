@@ -751,6 +751,14 @@
 
   })();
 
+
+
+(function() {
+  'use strict';
+  angular.module('ngCropperJS', []);
+})();(function() {
+  'use strict';
+
   angular.module('ngCropperJS',[])
     .directive('imageCrop', function() {
 
@@ -1333,5 +1341,7 @@
       };
     });
 
+
+})();
 
 })();
